@@ -1,0 +1,45 @@
+.result-div {
+  width: 490px;
+  height: 150px;
+  border-radius: 12px;
+  background-color: hsl(223, 31%, 20%);
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  h1 {
+    padding: 40px;
+  }
+}
+
+.theme-2-result-div {
+  width: 490px;
+  height: 150px;
+  border-radius: 12px;
+  background-color: hsl(0, 5%, 81%);
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  h1 {
+    padding: 40px;
+    color: black;
+  }
+}
+
+.theme-3-result-div {
+  width: 490px;
+  height: 150px;
+  border-radius: 12px;
+  background-color: hsl(268, 71%, 12%);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  h1 {
+    padding: 40px;
+    color: hsl(52, 100%, 62%);
+  }
+}

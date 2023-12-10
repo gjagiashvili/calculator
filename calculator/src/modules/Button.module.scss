@@ -1,0 +1,260 @@
+.container {
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: hsl(223, 31%, 20%) ;  
+  width: 450px;
+
+  .btn-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+  
+    .delete-btn {
+      background-color: hsl(225, 21%, 49%);
+      color: white;
+    }
+  
+    
+  
+    button {
+      border-radius: 7px;
+      width: 65px;
+      height: 44px;
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        transition: transform 0.3s ease-in-out;
+        transform: perspective(600px) rotateX(0deg);
+        transform-origin: center bottom;
+        z-index: -1;
+      }
+  
+      &:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  
+        &:before {
+          transform: perspective(600px) rotateX(45deg);
+        }
+      }
+    }
+  }
+}
+
+.theme-2-container {
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: hsl(0, 5%, 81%);
+  width: 450px;
+
+  .btn-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+  
+  
+    .theme-2-delete-btn {
+      background-color: hsl(185, 42%, 37%);
+      color: white;
+    }
+  
+    button {
+      border-radius: 7px;
+      width: 65px;
+      height: 44px;
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        transition: transform 0.3s ease-in-out;
+        transform: perspective(600px) rotateX(0deg);
+        transform-origin: center bottom;
+        z-index: -1;
+      }
+  
+      &:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  
+        &:before {
+          transform: perspective(600px) rotateX(45deg);
+        }
+      }
+    }
+  }
+}
+
+.theme-3-container {
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color:hsl(268, 71%, 12%);
+  width: 450px;
+  color: hsl(52, 100%, 62%);
+
+  .btn-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+    color: hsl(52, 100%, 62%);
+  
+  
+    .theme-3-delete-btn {
+      background-color: hsl(281, 89%, 26%);
+      color: white;
+    }
+  
+    button {
+      border-radius: 7px;
+      width: 65px;
+      height: 44px;
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+      background-color: hsl(281, 89%, 26%);
+      color: hsl(52, 100%, 62%);
+  
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        transition: transform 0.3s ease-in-out;
+        transform: perspective(600px) rotateX(0deg);
+        transform-origin: center bottom;
+        z-index: -1;
+      }
+  
+      &:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  
+        &:before {
+          transform: perspective(600px) rotateX(45deg);
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+.button-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 20px;
+  column-gap: 25px;
+  width: 100%;
+
+  .reset {
+    width: 190px;
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .theme-2-reset {
+    width: 190px;
+    background-color: hsl(185, 42%, 37%);
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .theme-3-reset {
+    width: 190px;
+    background-color: hsl(281, 89%, 26%);
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .equal {
+    width: 190px;
+    background-color: hsl(6, 63%, 50%);
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .theme-2-equal {
+    width: 190px;
+    background-color: hsl(25, 98%, 40%);
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .theme-3-equal {
+    width: 190px;
+    background-color:hsl(176, 100%, 44%);
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
